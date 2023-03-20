@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/drawable/selector.xml" value="0.24" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/drawable/style.xml" value="0.24" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/activity_bottomnavbar.xml" value="0.4984848022460937" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/activity_editprofile.xml" value="0.15694086931753848" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/activity_main.xml" value="0.1884719848632813" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/activity_productdetail.xml" value="0.16334533691406242" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/activity_topnavbar.xml" value="0.20995635986328126" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/card_user.xml" value="0.1974685668945313" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/dropdown_item.xml" value="0.14285714285714285" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_menu1.xml" value="0.19921417236328126" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_menu2.xml" value="0.20253753662109383" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_menu3.xml" value="0.19689788818359386" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_productall.xml" value="0.1" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_productexpired.xml" value="0.29055633544921877" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/fragment_productgood.xml" value="0.1" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/home.xml" value="0.1" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/list_item.xml" value="0.14285714285714285" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/layout/signup.xml" value="0.19359130859375012" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/menu/bottom_nav_menu.xml" value="0.29375" />
+        <entry key="../../../marshalikorawung/AndroidStudioProjects/EXPReminder/app/src/main/res/menu/top_nav_menu.xml" value="0.21870117187500004" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/activity_bottomnavbar.xml" value="0.40031596750452914" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/activity_editproduct.xml" value="0.12736896861683236" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/activity_editprofile.xml" value="0.26277372262773724" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/activity_main.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/activity_productdetail.xml" value="0.26950836181640625" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/card_user.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/dropdown_item.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/dropdown_item2.xml" value="0.14285714285714285" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_menu1.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_menu2.xml" value="0.27469951242640406" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_menu3.xml" value="0.2538697394771853" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_productall.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_productexpired.xml" value="0.239854541723279" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/fragment_productgood.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/login.xml" value="0.182518115942029" />
+        <entry key="../../../marshalikorawung/Downloads/EXPReminder-71958d1f5ceba395134b3d0ea263259735ed87d4/app/src/main/res/layout/signup.xml" value="0.25806451612903225" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/activity_editproduct.xml" value="0.335" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/activity_editprofile.xml" value="0.23948220064724918" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/activity_main.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/activity_productdetail.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/fragment_menu1.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/fragment_menu2.xml" value="0.3277777777777778" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/fragment_menu3.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/fragment_productgood.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/fragment_profileedit.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/login.xml" value="0.335" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder-baru/app/src/main/res/layout/signup.xml" value="0.375" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/activity_bottomnavbar.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/activity_editprofile.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/activity_main.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/activity_productdetail.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/login.xml" value="0.165" />
+        <entry key="..\:/Users/davina/Documents/GitHub/EXPReminder/app/src/main/res/layout/signup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2532533065132473" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.21169355130755552" />
+        <entry key="app/src/main/res/layout/signup.xml" value="0.21032562255859377" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12366638183593748" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

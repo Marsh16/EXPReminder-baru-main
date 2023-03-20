@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBC0D"
+    tools:context=".editproduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/backbutton_edit"
+                android:layout_width="58dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/back_removebg_preview" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Edit Product"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="@+id/backbutton_edit"
+                app:layout_constraintStart_toEndOf="@+id/backbutton_edit"
+                app:layout_constraintTop_toTopOf="@+id/backbutton_edit" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+                <ImageView
+                    android:id="@+id/pictureproduct_edit"
+                    android:layout_width="196dp"
+                    android:layout_height="167dp"
+                    app:srcCompat="@drawable/av5c8336583e291842624_removebg_preview" />
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/buttonproductpicture_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="-10dp"
+                android:layout_marginBottom="-10dp"
+                android:clickable="true"
+                android:src="@drawable/oojs_ui_icon_camera_svg_removebg_preview"
+                app:borderWidth="3dp"
+                android:tint="@color/white"
+                android:backgroundTint="@color/white"
+                app:backgroundTint="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView14"
+                app:layout_constraintEnd_toEndOf="@+id/cardView14"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/productname_edit"
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                android:background="#FFFFFF"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+
+                app:boxStrokeColor="#000000"
+                app:hintTextColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/backbutton_edit"
+                app:layout_constraintTop_toBottomOf="@+id/cardView14">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:hint="Product's Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/productcategory_edit"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                app:boxStrokeColor="#000000"
+
+                app:hintTextColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/productname_edit"
+                app:layout_constraintStart_toStartOf="@+id/productname_edit"
+                app:layout_constraintTop_toBottomOf="@+id/productname_edit">
+
+                <AutoCompleteTextView
+
+                    android:id="@+id/dropdown"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:inputType="none"
+                    android:text="Category" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/expdate_edit"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                app:boxStrokeColor="#000000"
+
+                app:hintTextColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/productcategory_edit"
+                app:layout_constraintStart_toStartOf="@+id/productcategory_edit"
+                app:layout_constraintTop_toBottomOf="@+id/productcategory_edit">
+
+                <AutoCompleteTextView
+                    android:id="@+id/datepickeredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:inputType="none"
+
+                    android:text="Expiry Date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/quantity_edit"
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                app:boxStrokeColor="#000000"
+
+                app:hintTextColor="#000000"
+                app:layout_constraintEnd_toEndOf="@+id/expdate_edit"
+                app:layout_constraintStart_toStartOf="@+id/expdate_edit"
+                app:layout_constraintTop_toBottomOf="@+id/expdate_edit">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:background="#ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Quantity"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonready_edit"
+                android:layout_width="0dp"
+
+                android:layout_height="65dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#DB0007"
+
+                android:text="Ready"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/quantity_edit"
+                app:layout_constraintStart_toStartOf="@+id/quantity_edit"
+                app:layout_constraintTop_toBottomOf="@+id/quantity_edit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
